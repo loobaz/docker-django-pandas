@@ -17,6 +17,7 @@ RUN rm -rf /var/lib/apt/lists/*
 RUN pip install Django==1.7 && \
     pip install djangorestframework && \
     pip install django-picklefield && \
+    pip install drf-extensions && \
     pip install pandas==0.14.1 && \
     pip install ystockquote && \
     pip install Yahoo-ticker-downloader && \
